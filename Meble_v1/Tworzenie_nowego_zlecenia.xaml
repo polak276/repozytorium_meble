@@ -1,0 +1,17 @@
+﻿<Window x:Class="Meble_v1.Tworzenie_nowego_zlecenia"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Meble_v1"
+        xmlns:l="clr-namespace:Meble_v1.Languages"
+        mc:Ignorable="d"
+        Title="{x:Static l:Lang.nz_creating_new_order}" Height="302.528" Width="539.326" ResizeMode="NoResize">
+    <Grid>
+        <Button x:Name="button_add_cupboard" Content="{x:Static l:Lang.nz_button_add_cupboard}" HorizontalAlignment="Left" Margin="94,44,0,0" VerticalAlignment="Top" Width="142" Height="71" Click="button_cno_add_cupboard_Click" />
+        <Button x:Name="button_view_cupboards" Content="{x:Static l:Lang.nz_view_created_furnish}" HorizontalAlignment="Left" Margin="284,44,0,0" VerticalAlignment="Top" Width="188" Height="71"/>
+        <Button x:Name="button_save_order" Content="{x:Static l:Lang.nz_save_order}" HorizontalAlignment="Left" Margin="94,148,0,0" VerticalAlignment="Top" Width="142" Height="71"/>
+        <Button x:Name="button_back" Content="{x:Static l:Lang.global_cofnij}" HorizontalAlignment="Left" Margin="403,213,0,0" VerticalAlignment="Top" Width="91" Height="37" Click="Button_Click"/>
+        <Button x:Name="button_print_order" Content="{x:Static l:Lang.nz_print_order}" HorizontalAlignment="Left" Margin="284,148,0,0" VerticalAlignment="Top" Width="134" Height="51"/>
+    </Grid>
+</Window>

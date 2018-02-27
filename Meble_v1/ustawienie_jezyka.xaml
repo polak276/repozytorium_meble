@@ -1,0 +1,18 @@
+﻿<Window x:Class="Meble_v1.ustawienie_jezyka"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Meble_v1"
+        xmlns:l="clr-namespace:Meble_v1.Languages"
+        mc:Ignorable="d"
+        Title="{x:Static l:Lang.uj_Language_selection}" Height="300" Width="300">
+    <Grid>
+        <StackPanel HorizontalAlignment="Left" Height="78" Margin="50,44,0,0" VerticalAlignment="Top" Width="147">
+            <Label Content="{x:Static l:Lang.mm_choose_language}"/>
+            <RadioButton x:Name="radio_button_polski" Content="{x:Static l:Lang.uj_polish}" IsChecked="True"/>
+            <RadioButton x:Name="radio_button_angielski" Content="{x:Static l:Lang.uj_english}"/>
+        </StackPanel>
+        <Button Content="OK" HorizontalAlignment="Left" Margin="100,178,0,0" VerticalAlignment="Top" Width="86" Height="28" Click="Button_Click"/>
+    </Grid>
+</Window>
